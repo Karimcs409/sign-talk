@@ -215,47 +215,7 @@ Expanding to 100–300 classes dropped accuracy below 80%, which distorts ASL me
 
 ---
 
-## 🚀 Getting Started
 
-> Update the commands below to match your repo layout.
-
-```bash
-# 1. Clone
-git clone https://github.com/<your-username>/sign-talk.git
-cd sign-talk
-
-# 2. Create a virtual environment
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Start Redis (required for WebSockets)
-redis-server
-
-# 5. Run migrations and start the ASGI server
-python manage.py migrate
-daphne -b 0.0.0.0 -p 8000 config.asgi:application
-```
-
-Add your model weights under `models/` (see the AI engine docs) and open `http://localhost:8000`.
-
----
-
-## 📁 Suggested Repository Structure
-
-```
-sign-talk/
-├── backend/        # Django project: auth, chat, WebSocket consumers
-├── ai_engine/      # SlowFast model, preprocessing, MediaPipe, inference API
-├── avatar/         # Three.js renderer, GLB models, motion data
-├── docs/           # Slides, diagrams, screenshots
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## 👥 Team
 
