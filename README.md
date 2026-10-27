@@ -5,6 +5,7 @@
 Sign Talk lets a Deaf person sign into their webcam and have it converted into readable text, while text replies are turned back into a signing 3D avatar, so both sides can hold a spontaneous conversation without a human interpreter.
 
 > Graduation project — supervised by **Dr. Mohamed Badawi**.
+> 
 > **Status:** MVP / research prototype (09/2025 – 04/2026). A production deployment would require a far larger sign vocabulary, tighter latency budgets, and robustness across users and environments, which is outside the scope of this project.
 
 ---
@@ -20,7 +21,6 @@ Sign Talk lets a Deaf person sign into their webcam and have it converted into r
 - [Web Platform & Real-Time Layer](#-web-platform--real-time-layer)
 - [Results](#-results)
 - [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
 - [Team](#-team)
 
 ---
@@ -194,6 +194,8 @@ Expanding to 100–300 classes dropped accuracy below 80%, which distorts ASL me
 
 ## 📊 Results
 
+Results on the 50-word "Gold Standard" vocabulary:
+
 | Metric | Value |
 |---|---|
 | Validation accuracy | **90.69%** |
@@ -226,6 +228,7 @@ Expanding to 100–300 classes dropped accuracy below 80%, which distorts ASL me
 | **Mohamed Ali Shawki** | Platform architect: Django backend, WebSockets/Redis, frontend, camera-to-AI integration, avatar rendering |
 
 **Supervisor:** Dr. Mohamed Badawi
+
 **Special thanks:** Dr. Hany, Dr. Nabil
 
 ---
@@ -233,6 +236,4 @@ Expanding to 100–300 classes dropped accuracy below 80%, which distorts ASL me
 > This repository is a documentation showcase created in October 2026. The project was developed over 09/2025 – 04/2026, and the source code is maintained privately by the project team.
 
 
-## 📄 License
 
-Add your license here (e.g. MIT).
