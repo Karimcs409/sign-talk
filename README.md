@@ -230,6 +230,9 @@ Expanding to 100–300 classes dropped accuracy below 80%, which distorts ASL me
 
 ---
 
+> This repository is a documentation showcase created in October 2026. The project was developed over 09/2025 – 04/2026, and the source code is maintained privately by the project team.
+
+
 ## 📄 License
 
 Add your license here (e.g. MIT).
