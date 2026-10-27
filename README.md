@@ -5,6 +5,7 @@
 Sign Talk lets a Deaf person sign into their webcam and have it converted into readable text, while text replies are turned back into a signing 3D avatar, so both sides can hold a spontaneous conversation without a human interpreter.
 
 > Graduation project — supervised by **Dr. Mohamed Badawi**.
+> **Status:** MVP / research prototype (09/2025 – 04/2026). A production deployment would require a far larger sign vocabulary, tighter latency budgets, and robustness across users and environments, which is outside the scope of this project.
 
 ---
 
